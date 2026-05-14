@@ -1,0 +1,128 @@
+{% extends "base.html" %}
+{% block title %}Results #{{ scan.id }} — WAST{% endblock %}
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-4">
+  <div>
+    <h1 class="h3 mb-0">Scan results</h1>
+    <p class="text-muted mb-0 small">ID {{ scan.id }} · {{ scan.target_url }}</p>
+  </div>
+  <div>
+    <a class="btn btn-outline-gh btn-sm" href="{{ url_for('report', scan_id=scan.id) }}" target="_blank">Open HTML report</a>
+    <a class="btn btn-outline-gh btn-sm" href="{{ url_for('home') }}">New scan</a>
+  </div>
+</div>
+
+{% if scan.status in ('pending', 'running') %}
+<div class="alert alert-warning" id="scan-progress">
+  Scan status: <strong id="scan-status-text">{{ scan.status }}</strong>.
+  Status polls every few seconds; the page reloads when the scan completes or fails.
+</div>
+{% elif scan.status == 'failed' %}
+<div class="alert alert-danger">Scan failed: {{ scan.error_message or 'Unknown error' }}</div>
+{% else %}
+{% if scan.error_message %}
+<div class="alert alert-secondary small">Crawl / request notes: {{ scan.error_message }}</div>
+{% endif %}
+{% endif %}
+
+<div class="row g-4 mb-4">
+  <div class="col-md-4">
+    <div class="card h-100 gh-card">
+      <div class="card-body text-center">
+        <h2 class="display-6 stat-number">{{ total_vulns }}</h2>
+        <p class="text-muted mb-0">Total findings (heuristic)</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card h-100 gh-card">
+      <div class="card-body">
+        <h6 class="text-uppercase text-muted small">SQLi vs XSS</h6>
+        <canvas id="chartTypes" height="160"></canvas>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card h-100 gh-card">
+      <div class="card-body">
+        <h6 class="text-uppercase text-muted small">Severity</h6>
+        <canvas id="chartSeverity" height="160"></canvas>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row g-4">
+  <div class="col-12">
+    <div class="card gh-card h-100">
+      <div class="card-header">Threat intelligence</div>
+      <div class="card-body table-responsive p-0">
+        {% if intel %}
+        <table class="table table-sm table-striped gh-table mb-0">
+          <thead><tr><th>URL</th><th>VT</th><th>IP</th><th>Country</th><th>ISP</th></tr></thead>
+          <tbody>
+            {% for row in intel %}
+            <tr>
+              <td class="small text-truncate" style="max-width:8rem;" title="{{ row.url }}">{{ row.url }}</td>
+              <td><span class="badge rounded-pill badge-gh-muted">{{ row.virustotal_status }}</span></td>
+              <td class="small">{{ row.ip or '—' }}</td>
+              <td>{{ row.country or '—' }}</td>
+              <td class="small">{{ row.isp or '—' }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        {% else %}
+        <p class="text-muted mb-0">No threat intel rows yet.</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card gh-card mt-4">
+  <div class="card-header d-flex justify-content-between align-items-center">
+    <span>Vulnerabilities</span>
+    <span class="badge rounded-pill" style="background:#ffebe9;color:#cf222e;border:1px solid #ff818266;">{{ total_vulns }}</span>
+  </div>
+  <div class="card-body table-responsive p-0">
+    {% if vulns %}
+    <table class="table table-hover gh-table mb-0 small">
+      <thead><tr><th>Type</th><th>Severity</th><th>URL</th><th>Payload / evidence</th></tr></thead>
+      <tbody>
+        {% for v in vulns %}
+        <tr>
+          <td>
+            <span class="badge rounded-pill {{ 'badge-gh-xss' if 'XSS' in v.type else 'badge-gh-sqli' if 'SQLi' in v.type else 'badge-gh-muted' }}">
+              {{ v.type }}
+            </span>
+          </td>
+          <td>{{ v.severity }}</td>
+          <td class="text-truncate" style="max-width:12rem;"><a href="{{ v.url }}" target="_blank" rel="noopener">{{ v.url }}</a></td>
+          <td><pre class="mb-0 small text-muted" style="white-space:pre-wrap;">{{ v.payload }}</pre></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+    <p class="p-3 text-muted mb-0">No heuristic findings for this scan (or scan still running).</p>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script>
+  window.WAST_CHARTS = {
+    sqli: {{ sqli_count }},
+    xss: {{ xss_count }},
+    sevLow: {{ sev_counts['Low'] }},
+    sevMed: {{ sev_counts['Medium'] }},
+    sevHigh: {{ sev_counts['High'] }},
+    scanId: {{ scan.id | tojson }},
+    scanStatus: {{ (scan.status or "") | tojson }}
+  };
+</script>
+<script src="{{ url_for('static', filename='charts.js') }}"></script>
+{% endblock %}

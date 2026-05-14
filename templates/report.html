@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Security Report — Scan {{ scan.id }}</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; padding: 2rem; max-width: 960px; margin: 0 auto; background: #f6f8fa; color: #1f2328; }
+    body a { color: #0969da; }
+    pre { font-size: 0.8rem; background: #f6f8fa; border: 1px solid #d0d7de; padding: 0.5rem; border-radius: 6px; }
+    .table-bordered { border-color: #d0d7de; }
+    @media print { .no-print { display: none; } body { background: #fff; } }
+  </style>
+</head>
+<body>
+  <p class="no-print"><a href="javascript:window.print()">Print / Save as PDF</a></p>
+  <h1>Web Application Security Scan Report</h1>
+  <p class="text-muted">Generated for authorized security assessment (educational tool).</p>
+
+  <h2 class="h4 mt-4">Target</h2>
+  <ul>
+    <li><strong>URL:</strong> {{ scan.target_url }}</li>
+    <li><strong>Scan ID:</strong> {{ scan.id }}</li>
+    <li><strong>Timestamp (UTC):</strong> {{ scan.timestamp }}</li>
+    <li><strong>Status:</strong> {{ scan.status }}</li>
+  </ul>
+
+  <h2 class="h4 mt-4">Summary</h2>
+  <p>Total heuristic findings: <strong>{{ total_vulns }}</strong> (SQLi: {{ sqli_count }}, XSS: {{ xss_count }})</p>
+  <p>Severity counts — Low: {{ sev_counts['Low'] }}, Medium: {{ sev_counts['Medium'] }}, High: {{ sev_counts['High'] }}</p>
+
+  <div class="row mt-3">
+    <div class="col-md-6">
+      <h3 class="h6">Vulnerability types</h3>
+      <canvas id="repTypes" width="300" height="200"></canvas>
+    </div>
+    <div class="col-md-6">
+      <h3 class="h6">Severity</h3>
+      <canvas id="repSev" width="300" height="200"></canvas>
+    </div>
+  </div>
+
+  <h2 class="h4 mt-4">Threat intelligence</h2>
+  {% if intel %}
+  <table class="table table-sm table-bordered">
+    <thead><tr><th>URL</th><th>VirusTotal</th><th>IP</th><th>Country</th><th>ISP</th></tr></thead>
+    <tbody>
+      {% for row in intel %}
+      <tr>
+        <td>{{ row.url }}</td>
+        <td>{{ row.virustotal_status }}</td>
+        <td>{{ row.ip }}</td>
+        <td>{{ row.country }}</td>
+        <td>{{ row.isp }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p>None recorded.</p>
+  {% endif %}
+
+  <h2 class="h4 mt-4">Findings detail</h2>
+  {% if vulns %}
+  <table class="table table-sm table-bordered">
+    <thead><tr><th>Type</th><th>Severity</th><th>URL</th><th>Payload / evidence</th></tr></thead>
+    <tbody>
+      {% for v in vulns %}
+      <tr>
+        <td>{{ v.type }}</td>
+        <td>{{ v.severity }}</td>
+        <td>{{ v.url }}</td>
+        <td><pre class="mb-0">{{ v.payload }}</pre></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p>No findings.</p>
+  {% endif %}
+
+  <p class="text-muted small mt-5">Report produced by WAST — heuristic checks may produce false positives. Verify manually.</p>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script>
+    const sqli = {{ sqli_count }}, xss = {{ xss_count }};
+    const sl = {{ sev_counts['Low'] }}, sm = {{ sev_counts['Medium'] }}, sh = {{ sev_counts['High'] }};
+    Chart.defaults.plugins.legend.labels.boxWidth = 12;
+    Chart.defaults.color = '#656d76';
+    new Chart(document.getElementById('repTypes'), {
+      type: 'pie',
+      data: {
+        labels: ['SQLi', 'XSS'],
+        datasets: [{ data: [sqli, xss], backgroundColor: ['#0969da', '#bf8700'], borderWidth: 1, borderColor: '#fff' }]
+      },
+      options: { plugins: { title: { display: false } } }
+    });
+    new Chart(document.getElementById('repSev'), {
+      type: 'bar',
+      data: {
+        labels: ['Low', 'Medium', 'High'],
+        datasets: [{ label: 'Count', data: [sl, sm, sh], backgroundColor: ['#656d76', '#9a6700', '#cf222e'], borderColor: '#d0d7de', borderWidth: 1 }]
+      },
+      options: { scales: { x: { grid: { color: '#d0d7de' } }, y: { beginAtZero: true, ticks: { stepSize: 1 }, grid: { color: '#d0d7de' } } } }
+    });
+  </script>
+</body>
+</html>

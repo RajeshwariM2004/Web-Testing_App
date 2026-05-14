@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Home — WAST{% endblock %}
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-lg-8">
+    <div class="card gh-card shadow-sm">
+      <div class="card-body p-4">
+        <h1 class="h3 mb-3"> Web Application Security Testing Tool</h1>
+        <p class="text-muted">
+          Crawl same-domain pages, run heuristic SQL injection and reflected XSS checks,
+          and enrich results with threat intelligence (VirusTotal, IP geolocation).
+        </p>
+        <div class="alert alert-danger">
+          <strong>Legal &amp; ethical use:</strong> Use this tool only on applications and hosts you are
+          authorized to assess. Unauthorized scanning may violate law and policy.
+        </div>
+        <div class="alert alert-info small mb-4">
+          Rate limit: one new scan per client approximately every {{ rate_limit_seconds }} seconds
+          to reduce accidental misuse and server load.
+        </div>
+        <form method="post" action="{{ url_for('start_scan') }}" class="mt-3">
+          <label for="url" class="form-label">Target URL</label>
+          <input type="text" class="form-control form-control-lg"
+                 id="url" name="url" placeholder="https://example.com"
+                 autocomplete="off" required>
+          <p class="form-text text-muted small mt-2">
+            Use <code>http://</code> or <code>https://</code>. If you omit the scheme, <code>https://</code> is prepended.
+          </p>
+          <button type="submit" class="btn btn-primary btn-lg mt-2">Start scan</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

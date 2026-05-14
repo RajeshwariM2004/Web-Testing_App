@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}WAST — Web App Security Tester{% endblock %}</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="theme-github">
+  <nav class="navbar navbar-expand-lg gh-header">
+    <div class="container">
+      <a class="navbar-brand" href="{{ url_for('home') }}">WAST</a>
+      <span class="navbar-text">Authorized testing only</span>
+    </div>
+  </nav>
+
+  <main class="container py-4">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        {% for category, message in messages %}
+          {% set bs = {'message': 'info', 'error': 'danger', 'danger': 'danger', 'warning': 'warning', 'info': 'info', 'success': 'success'}.get(category, 'secondary') %}
+          <div class="alert alert-{{ bs }} alert-dismissible fade show" role="alert">
+            {{ message }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="gh-footer mt-5 py-3 text-center small">
+    <div class="container">
+      Educational final-year project — scan only systems you own or have written permission to test.
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

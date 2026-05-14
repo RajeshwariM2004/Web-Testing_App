@@ -1,0 +1,779 @@
+2026-04-02 11:11:11,439 [INFO] wast: Database ready at C:\Users\anura\OneDrive\Desktop\Web-Testing\database.db
+2026-04-02 11:11:11,680 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-02 11:11:11,681 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-04-02 11:13:58,640 [INFO] wast: Database ready at C:\Users\anura\OneDrive\Desktop\Web-Testing\database.db
+2026-04-02 11:13:58,666 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-02 11:13:58,666 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-04-02 11:14:35,837 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:14:35] "GET / HTTP/1.1" 200 -
+2026-04-02 11:14:35,889 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:14:35] "GET /static/style.css HTTP/1.1" 200 -
+2026-04-02 11:15:18,286 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:15:18] "GET / HTTP/1.1" 200 -
+2026-04-02 11:15:18,317 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:15:18] "GET /static/style.css HTTP/1.1" 200 -
+2026-04-02 11:15:18,725 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:15:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-02 11:16:00,110 [INFO] wast: Database ready at C:\Users\anura\OneDrive\Desktop\Web-Testing\database.db
+2026-04-02 11:16:00,133 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-02 11:16:00,133 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-04-02 11:16:05,529 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:16:05] "GET / HTTP/1.1" 200 -
+2026-04-02 11:16:05,583 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:16:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-02 11:16:09,340 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:16:09] "GET / HTTP/1.1" 200 -
+2026-04-02 11:16:09,352 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:16:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-02 11:18:17,815 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:18:17] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-02 11:18:17,835 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:18:17] "GET /results/1 HTTP/1.1" 200 -
+2026-04-02 11:18:17,848 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:18:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-02 11:18:17,849 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:18:17] "GET /static/charts.js HTTP/1.1" 200 -
+2026-04-02 11:18:18,049 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:18:18] "GET /api/scan/1/status HTTP/1.1" 200 -
+2026-04-02 11:18:18,235 [WARNING] urllib3.connectionpool: Retrying (Retry(total=1, connect=2, read=2, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)'))': /
+2026-04-02 11:18:19,422 [WARNING] urllib3.connectionpool: Retrying (Retry(total=0, connect=2, read=2, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)'))': /
+2026-04-02 11:18:19,801 [WARNING] scanner.crawler: Request error for https://example.com/: HTTPSConnectionPool(host='example.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))
+2026-04-02 11:18:20,412 [INFO] wast: Scan 1 completed for https://example.com
+2026-04-02 11:18:21,052 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:18:21] "GET /api/scan/1/status HTTP/1.1" 200 -
+2026-04-02 11:18:21,068 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:18:21] "GET /results/1 HTTP/1.1" 200 -
+2026-04-02 11:18:21,080 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:18:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-02 11:18:21,081 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:18:21] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-02 11:18:50,986 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:18:50] "GET /report/1 HTTP/1.1" 200 -
+2026-04-02 11:19:47,730 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:19:47] "GET / HTTP/1.1" 200 -
+2026-04-02 11:19:47,743 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:19:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-02 11:19:58,690 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:19:58] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-02 11:19:58,700 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:19:58] "GET /results/2 HTTP/1.1" 200 -
+2026-04-02 11:19:58,702 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:19:58] "GET / HTTP/1.1" 200 -
+2026-04-02 11:19:58,712 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:19:58] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-02 11:19:58,713 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:19:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-02 11:19:58,717 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:19:58] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-02 11:19:58,720 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:19:58] "GET / HTTP/1.1" 200 -
+2026-04-02 11:19:58,729 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:19:58] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-02 11:19:58,734 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:19:58] "GET / HTTP/1.1" 200 -
+2026-04-02 11:19:58,741 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:19:58] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-02 11:19:58,746 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:19:58] "GET / HTTP/1.1" 200 -
+2026-04-02 11:19:58,746 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:19:58] "GET /api/scan/2/status HTTP/1.1" 200 -
+2026-04-02 11:19:59,290 [INFO] wast: Scan 2 completed for http://127.0.0.1:5000
+2026-04-02 11:20:01,758 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:20:01] "GET /api/scan/2/status HTTP/1.1" 200 -
+2026-04-02 11:20:01,774 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:20:01] "GET /results/2 HTTP/1.1" 200 -
+2026-04-02 11:20:01,790 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:20:01] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-02 11:20:01,790 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:20:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-02 11:20:21,893 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:20:21] "GET / HTTP/1.1" 200 -
+2026-04-02 11:20:21,904 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:20:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-02 11:28:10,918 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:28:10] "GET / HTTP/1.1" 200 -
+2026-04-02 11:28:10,938 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:28:10] "GET /static/style.css HTTP/1.1" 200 -
+2026-04-02 11:28:21,762 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:28:21] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-02 11:28:21,779 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:28:21] "GET / HTTP/1.1" 200 -
+2026-04-02 11:28:21,811 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:28:21] "GET /results/3 HTTP/1.1" 200 -
+2026-04-02 11:28:21,816 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:28:21] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-02 11:28:21,823 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:28:21] "GET / HTTP/1.1" 200 -
+2026-04-02 11:28:21,830 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:28:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-02 11:28:21,833 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:28:21] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-02 11:28:21,835 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:28:21] "GET /static/charts.js HTTP/1.1" 200 -
+2026-04-02 11:28:21,845 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:28:21] "GET / HTTP/1.1" 200 -
+2026-04-02 11:28:21,853 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:28:21] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-02 11:28:21,858 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:28:21] "GET / HTTP/1.1" 200 -
+2026-04-02 11:28:21,887 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:28:21] "GET /api/scan/3/status HTTP/1.1" 200 -
+2026-04-02 11:28:22,439 [INFO] wast: Scan 3 completed for http://127.0.0.1:5000
+2026-04-02 11:28:24,895 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:28:24] "GET /api/scan/3/status HTTP/1.1" 200 -
+2026-04-02 11:28:24,912 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:28:24] "GET /results/3 HTTP/1.1" 200 -
+2026-04-02 11:28:24,938 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:28:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-02 11:28:24,939 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:28:24] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-02 11:28:44,241 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:28:44] "GET /report/3 HTTP/1.1" 200 -
+2026-04-02 11:28:44,250 [INFO] werkzeug: 127.0.0.1 - - [02/Apr/2026 11:28:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 12:22:06,246 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:22:06] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-07 12:22:06,273 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:22:06] "GET / HTTP/1.1" 200 -
+2026-04-07 12:22:06,275 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:22:06] "GET /results/4 HTTP/1.1" 200 -
+2026-04-07 12:22:06,292 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:22:06] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-07 12:22:06,304 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:22:06] "GET / HTTP/1.1" 200 -
+2026-04-07 12:22:06,315 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:22:06] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-07 12:22:06,321 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:22:06] "GET / HTTP/1.1" 200 -
+2026-04-07 12:22:06,323 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:22:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 12:22:06,332 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:22:06] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-07 12:22:06,333 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:22:06] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-07 12:22:06,341 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:22:06] "GET / HTTP/1.1" 200 -
+2026-04-07 12:22:06,375 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:22:06] "GET /api/scan/4/status HTTP/1.1" 200 -
+2026-04-07 12:22:06,864 [INFO] wast: Scan 4 completed for http://127.0.0.1:5000
+2026-04-07 12:22:09,391 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:22:09] "GET /api/scan/4/status HTTP/1.1" 200 -
+2026-04-07 12:22:09,417 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:22:09] "GET /results/4 HTTP/1.1" 200 -
+2026-04-07 12:22:09,433 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:22:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 12:22:09,435 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:22:09] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-07 12:22:30,031 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:22:30] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-07 12:22:30,043 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:22:30] "GET / HTTP/1.1" 200 -
+2026-04-07 12:22:30,067 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:22:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 12:23:09,496 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:23:09] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-07 12:23:09,506 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:23:09] "GET / HTTP/1.1" 200 -
+2026-04-07 12:23:09,526 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:23:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 12:23:36,194 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:23:36] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-07 12:23:36,206 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:23:36] "GET / HTTP/1.1" 200 -
+2026-04-07 12:23:36,227 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:23:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 12:23:45,251 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:23:45] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-07 12:23:45,263 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:23:45] "GET /results/5 HTTP/1.1" 200 -
+2026-04-07 12:23:45,281 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:23:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 12:23:45,281 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:23:45] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-07 12:23:45,307 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:23:45] "GET /api/scan/5/status HTTP/1.1" 200 -
+2026-04-07 12:23:47,984 [WARNING] urllib3.connectionpool: Retrying (Retry(total=1, connect=1, read=2, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='dd', port=443): Failed to resolve 'dd' ([Errno 11001] getaddrinfo failed)")': /
+2026-04-07 12:23:48,317 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:23:48] "GET /api/scan/5/status HTTP/1.1" 200 -
+2026-04-07 12:23:51,315 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:23:51] "GET /api/scan/5/status HTTP/1.1" 200 -
+2026-04-07 12:23:51,491 [WARNING] urllib3.connectionpool: Retrying (Retry(total=0, connect=0, read=2, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='dd', port=443): Failed to resolve 'dd' ([Errno 11001] getaddrinfo failed)")': /
+2026-04-07 12:23:54,208 [WARNING] scanner.crawler: Request error for https://dd/: HTTPSConnectionPool(host='dd', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='dd', port=443): Failed to resolve 'dd' ([Errno 11001] getaddrinfo failed)"))
+2026-04-07 12:23:54,322 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:23:54] "GET /api/scan/5/status HTTP/1.1" 200 -
+2026-04-07 12:23:56,919 [INFO] wast: Scan 5 completed for https://dd
+2026-04-07 12:23:57,317 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:23:57] "GET /api/scan/5/status HTTP/1.1" 200 -
+2026-04-07 12:23:57,340 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:23:57] "GET /results/5 HTTP/1.1" 200 -
+2026-04-07 12:23:57,357 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:23:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 12:23:57,358 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 12:23:57] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-07 19:08:43,299 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:08:43] "GET /report/5 HTTP/1.1" 200 -
+2026-04-07 19:08:43,318 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:08:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 19:09:01,065 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:09:01] "GET /results/5 HTTP/1.1" 200 -
+2026-04-07 19:09:01,085 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:09:01] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-07 19:09:01,087 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:09:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 19:09:03,149 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:09:03] "GET / HTTP/1.1" 200 -
+2026-04-07 19:09:34,338 [INFO] wast: Database ready at C:\Users\anura\OneDrive\Desktop\Web-Testing\database.db
+2026-04-07 19:09:34,408 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-07 19:09:34,409 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-04-07 19:09:46,181 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:09:46] "GET / HTTP/1.1" 200 -
+2026-04-07 19:09:46,285 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:09:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 19:09:46,347 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:09:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-07 19:12:02,187 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:12:02] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-07 19:12:02,249 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:12:02] "GET /results/6 HTTP/1.1" 200 -
+2026-04-07 19:12:02,264 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:12:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 19:12:02,267 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:12:02] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-07 19:12:02,335 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:12:02] "GET /api/scan/6/status HTTP/1.1" 200 -
+2026-04-07 19:12:04,250 [WARNING] urllib3.connectionpool: Retrying (Retry(total=1, connect=1, read=2, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='127.0.0.1', port=80): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /dvwa
+2026-04-07 19:12:05,349 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:12:05] "GET /api/scan/6/status HTTP/1.1" 200 -
+2026-04-07 19:12:07,078 [WARNING] urllib3.connectionpool: Retrying (Retry(total=0, connect=0, read=2, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='127.0.0.1', port=80): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /dvwa
+2026-04-07 19:12:08,336 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:12:08] "GET /api/scan/6/status HTTP/1.1" 200 -
+2026-04-07 19:12:09,128 [WARNING] scanner.crawler: Request error for http://127.0.0.1/dvwa: HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /dvwa (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=80): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-04-07 19:12:10,025 [INFO] wast: Scan 6 completed for http://127.0.0.1/dvwa
+2026-04-07 19:12:11,349 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:12:11] "GET /api/scan/6/status HTTP/1.1" 200 -
+2026-04-07 19:12:11,372 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:12:11] "GET /results/6 HTTP/1.1" 200 -
+2026-04-07 19:12:11,390 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:12:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 19:12:11,391 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:12:11] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-07 19:13:00,583 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:13:00] "GET / HTTP/1.1" 200 -
+2026-04-07 19:13:00,600 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:13:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 19:13:05,849 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:13:05] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-07 19:13:05,858 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:13:05] "GET / HTTP/1.1" 200 -
+2026-04-07 19:13:05,882 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:13:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 19:23:36,243 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:23:36] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-07 19:23:36,258 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:23:36] "GET /results/7 HTTP/1.1" 200 -
+2026-04-07 19:23:36,273 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:23:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 19:23:36,273 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:23:36] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-07 19:23:36,323 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:23:36] "GET /api/scan/7/status HTTP/1.1" 200 -
+2026-04-07 19:23:39,332 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:23:39] "GET /api/scan/7/status HTTP/1.1" 200 -
+2026-04-07 19:23:42,327 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:23:42] "GET /api/scan/7/status HTTP/1.1" 200 -
+2026-04-07 19:23:45,326 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:23:45] "GET /api/scan/7/status HTTP/1.1" 200 -
+2026-04-07 19:23:48,325 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:23:48] "GET /api/scan/7/status HTTP/1.1" 200 -
+2026-04-07 19:23:49,377 [WARNING] urllib3.connectionpool: Retrying (Retry(total=1, connect=1, read=2, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPConnection(host='testphp.vulnweb.com', port=80) at 0x1660d133360>, 'Connection to testphp.vulnweb.com timed out. (connect timeout=12)')': /
+2026-04-07 19:23:51,327 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:23:51] "GET /api/scan/7/status HTTP/1.1" 200 -
+2026-04-07 19:23:54,332 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:23:54] "GET /api/scan/7/status HTTP/1.1" 200 -
+2026-04-07 19:23:57,332 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:23:57] "GET /api/scan/7/status HTTP/1.1" 200 -
+2026-04-07 19:24:00,332 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:24:00] "GET /api/scan/7/status HTTP/1.1" 200 -
+2026-04-07 19:24:03,340 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:24:03] "GET /api/scan/7/status HTTP/1.1" 200 -
+2026-04-07 19:24:06,332 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:24:06] "GET /api/scan/7/status HTTP/1.1" 200 -
+2026-04-07 19:24:09,329 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:24:09] "GET /api/scan/7/status HTTP/1.1" 200 -
+2026-04-07 19:24:12,331 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:24:12] "GET /api/scan/7/status HTTP/1.1" 200 -
+2026-04-07 19:24:14,210 [WARNING] urllib3.connectionpool: Retrying (Retry(total=0, connect=0, read=2, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPConnection(host='testphp.vulnweb.com', port=80) at 0x1660d2768d0>, 'Connection to testphp.vulnweb.com timed out. (connect timeout=12)')': /
+2026-04-07 19:24:15,325 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:24:15] "GET /api/scan/7/status HTTP/1.1" 200 -
+2026-04-07 19:24:18,330 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:24:18] "GET /api/scan/7/status HTTP/1.1" 200 -
+2026-04-07 19:24:21,333 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:24:21] "GET /api/scan/7/status HTTP/1.1" 200 -
+2026-04-07 19:24:24,332 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:24:24] "GET /api/scan/7/status HTTP/1.1" 200 -
+2026-04-07 19:24:27,330 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:24:27] "GET /api/scan/7/status HTTP/1.1" 200 -
+2026-04-07 19:24:30,339 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:24:30] "GET /api/scan/7/status HTTP/1.1" 200 -
+2026-04-07 19:24:33,328 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:24:33] "GET /api/scan/7/status HTTP/1.1" 200 -
+2026-04-07 19:24:36,338 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:24:36] "GET /api/scan/7/status HTTP/1.1" 200 -
+2026-04-07 19:24:38,221 [WARNING] scanner.crawler: Timeout fetching http://testphp.vulnweb.com/
+2026-04-07 19:24:38,978 [INFO] wast: Scan 7 completed for http://testphp.vulnweb.com
+2026-04-07 19:24:39,341 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:24:39] "GET /api/scan/7/status HTTP/1.1" 200 -
+2026-04-07 19:24:39,363 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:24:39] "GET /results/7 HTTP/1.1" 200 -
+2026-04-07 19:24:39,384 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:24:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 19:24:39,385 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:24:39] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-07 19:30:28,879 [INFO] wast: Database ready at C:\Users\anura\OneDrive\Desktop\Web-Testing\database.db
+2026-04-07 19:30:28,904 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-07 19:30:28,905 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-04-07 19:30:36,359 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:30:36] "GET / HTTP/1.1" 200 -
+2026-04-07 19:30:36,460 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:30:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 19:30:57,953 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:30:57] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-07 19:30:58,000 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:30:57] "GET /results/8 HTTP/1.1" 200 -
+2026-04-07 19:30:58,020 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:30:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 19:30:58,023 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:30:58] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-07 19:30:58,051 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:30:58] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:31:01,061 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:31:01] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:31:04,071 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:31:04] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:31:07,068 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:31:07] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:31:10,069 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:31:10] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:31:13,067 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:31:13] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:31:16,061 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:31:16] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:31:18,038 [WARNING] urllib3.connectionpool: Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPConnection(host='testphp.vulnweb.com', port=80) at 0x16ef15a74d0>, 'Connection to testphp.vulnweb.com timed out. (connect timeout=10)')': /
+2026-04-07 19:31:19,068 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:31:19] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:31:22,062 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:31:22] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:31:25,063 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:31:25] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:31:28,068 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:31:28] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:31:31,054 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:31:31] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:31:34,054 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:31:34] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:31:37,054 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:31:37] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:31:38,858 [WARNING] urllib3.connectionpool: Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPConnection(host='testphp.vulnweb.com', port=80) at 0x16ef15ae990>, 'Connection to testphp.vulnweb.com timed out. (connect timeout=10)')': /
+2026-04-07 19:31:40,061 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:31:40] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:31:43,066 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:31:43] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:31:46,061 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:31:46] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:31:49,053 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:31:49] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:31:52,064 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:31:52] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:31:55,056 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:31:55] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:31:58,053 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:31:58] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:32:00,479 [WARNING] urllib3.connectionpool: Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPConnection(host='testphp.vulnweb.com', port=80) at 0x16ef15aec10>, 'Connection to testphp.vulnweb.com timed out. (connect timeout=10)')': /
+2026-04-07 19:32:01,065 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:32:01] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:32:04,056 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:32:04] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:32:07,065 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:32:07] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:32:10,065 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:32:10] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:32:13,060 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:32:13] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:32:16,054 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:32:16] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:32:19,057 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:32:19] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:32:20,507 [WARNING] scanner.crawler: Timeout fetching http://testphp.vulnweb.com/
+2026-04-07 19:32:20,508 [INFO] wast: No findings detected; inserting demo fallback result for scan 8
+2026-04-07 19:32:21,292 [INFO] wast: Scan 8 completed for http://testphp.vulnweb.com
+2026-04-07 19:32:22,067 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:32:22] "GET /api/scan/8/status HTTP/1.1" 200 -
+2026-04-07 19:32:22,097 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:32:22] "GET /results/8 HTTP/1.1" 200 -
+2026-04-07 19:32:22,115 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:32:22] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-07 19:32:22,115 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:32:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 19:45:31,326 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:45:31] "GET /report/8 HTTP/1.1" 200 -
+2026-04-07 19:45:31,341 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:45:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 19:50:32,323 [INFO] wast: Database ready at C:\Users\anura\OneDrive\Desktop\Web-Testing\database.db
+2026-04-07 19:50:32,357 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-07 19:50:32,358 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-04-07 19:50:39,138 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:50:39] "GET / HTTP/1.1" 200 -
+2026-04-07 19:50:39,239 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:50:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 19:50:39,345 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:50:39] "GET / HTTP/1.1" 200 -
+2026-04-07 19:50:39,368 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:50:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 19:50:39,570 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:50:39] "GET / HTTP/1.1" 200 -
+2026-04-07 19:50:39,586 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:50:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 19:50:39,835 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:50:39] "GET / HTTP/1.1" 200 -
+2026-04-07 19:50:39,858 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:50:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 19:50:40,047 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:50:40] "GET / HTTP/1.1" 200 -
+2026-04-07 19:50:40,063 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:50:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 19:50:59,394 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:50:59] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-07 19:50:59,456 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:50:59] "GET /results/9 HTTP/1.1" 200 -
+2026-04-07 19:50:59,470 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:50:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 19:50:59,473 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:50:59] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-07 19:50:59,518 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:50:59] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:51:02,529 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:51:02] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:51:05,525 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:51:05] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:51:08,528 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:51:08] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:51:11,530 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:51:11] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:51:14,526 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:51:14] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:51:17,535 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:51:17] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:51:20,537 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:51:20] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:51:23,528 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:51:23] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:51:26,526 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:51:26] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:51:29,527 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:51:29] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:51:29,597 [WARNING] urllib3.connectionpool: Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPConnection(host='testphp.vulnweb.com', port=80) at 0x1eca1c7d940>, 'Connection to testphp.vulnweb.com timed out. (connect timeout=15)')': /
+2026-04-07 19:51:32,529 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:51:32] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:51:35,524 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:51:35] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:51:38,538 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:51:38] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:51:41,534 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:51:41] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:51:44,534 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:51:44] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:51:47,527 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:51:47] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:51:50,533 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:51:50] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:51:53,527 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:51:53] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:51:56,528 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:51:56] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:51:59,526 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:51:59] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:52:00,418 [WARNING] urllib3.connectionpool: Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPConnection(host='testphp.vulnweb.com', port=80) at 0x1eca1c89a90>, 'Connection to testphp.vulnweb.com timed out. (connect timeout=15)')': /
+2026-04-07 19:52:02,532 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:52:02] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:52:05,521 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:52:05] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:52:08,535 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:52:08] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:52:11,533 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:52:11] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:52:14,522 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:52:14] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:52:17,530 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:52:17] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:52:20,525 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:52:20] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:52:23,524 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:52:23] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:52:26,525 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:52:26] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:52:29,523 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:52:29] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:52:32,031 [WARNING] urllib3.connectionpool: Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPConnection(host='testphp.vulnweb.com', port=80) at 0x1eca1c89090>, 'Connection to testphp.vulnweb.com timed out. (connect timeout=15)')': /
+2026-04-07 19:52:32,527 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:52:32] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:52:35,523 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:52:35] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:52:38,532 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:52:38] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:52:41,523 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:52:41] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:52:44,536 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:52:44] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:52:47,535 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:52:47] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:52:50,525 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:52:50] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:52:53,526 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:52:53] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:52:56,524 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:52:56] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:52:59,521 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:52:59] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:53:02,049 [INFO] scanner.scanner: No real findings detected; adding demo fallback rows.
+2026-04-07 19:53:02,524 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:53:02] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:53:02,798 [INFO] wast: Scan 9 completed for http://testphp.vulnweb.com
+2026-04-07 19:53:05,526 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:53:05] "GET /api/scan/9/status HTTP/1.1" 200 -
+2026-04-07 19:53:05,558 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:53:05] "GET /results/9 HTTP/1.1" 200 -
+2026-04-07 19:53:05,576 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:53:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 19:53:05,577 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:53:05] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-07 19:57:41,094 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:57:41] "GET / HTTP/1.1" 200 -
+2026-04-07 19:57:41,106 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:57:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 19:58:15,900 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:58:15] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-07 19:58:15,918 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:58:15] "GET /results/10 HTTP/1.1" 200 -
+2026-04-07 19:58:15,932 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:58:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 19:58:15,934 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:58:15] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-07 19:58:15,995 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:58:15] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:58:18,997 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:58:18] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:58:22,001 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:58:22] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:58:25,007 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:58:25] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:58:28,007 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:58:28] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:58:31,010 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:58:31] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:58:34,007 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:58:34] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:58:37,004 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:58:37] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:58:40,005 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:58:40] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:58:43,005 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:58:43] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:58:46,015 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:58:46] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:58:46,082 [WARNING] urllib3.connectionpool: Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPConnection(host='testphp.vulnweb.com', port=80) at 0x1eca1d17530>, 'Connection to testphp.vulnweb.com timed out. (connect timeout=15)')': /listproducts.php?cat=1
+2026-04-07 19:58:49,008 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:58:49] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:58:51,995 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:58:51] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:58:55,005 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:58:55] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:58:58,002 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:58:58] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:59:01,016 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:59:01] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:59:04,014 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:59:04] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:59:07,006 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:59:07] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:59:10,000 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:59:10] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:59:12,998 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:59:12] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:59:16,010 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:59:16] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:59:16,912 [WARNING] urllib3.connectionpool: Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPConnection(host='testphp.vulnweb.com', port=80) at 0x1eca1ca58c0>, 'Connection to testphp.vulnweb.com timed out. (connect timeout=15)')': /listproducts.php?cat=1
+2026-04-07 19:59:19,009 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:59:19] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:59:22,013 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:59:22] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:59:25,005 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:59:25] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:59:28,014 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:59:28] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:59:30,998 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:59:30] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:59:34,004 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:59:34] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:59:37,014 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:59:37] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:59:40,012 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:59:40] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:59:43,013 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:59:43] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:59:46,013 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:59:46] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:59:48,538 [WARNING] urllib3.connectionpool: Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPConnection(host='testphp.vulnweb.com', port=80) at 0x1eca1ca5040>, 'Connection to testphp.vulnweb.com timed out. (connect timeout=15)')': /listproducts.php?cat=1
+2026-04-07 19:59:49,001 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:59:49] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:59:52,014 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:59:52] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:59:54,999 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:59:54] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 19:59:58,008 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 19:59:58] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 20:00:01,002 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:00:01] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 20:00:04,014 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:00:04] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 20:00:07,011 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:00:07] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 20:00:10,006 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:00:10] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 20:00:13,012 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:00:13] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 20:00:16,000 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:00:16] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 20:00:18,548 [INFO] scanner.scanner: No real findings detected; adding demo fallback rows.
+2026-04-07 20:00:18,997 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:00:18] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 20:00:19,143 [INFO] wast: Scan 10 completed for http://testphp.vulnweb.com/listproducts.php?cat=1
+2026-04-07 20:00:22,003 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:00:22] "GET /api/scan/10/status HTTP/1.1" 200 -
+2026-04-07 20:00:22,029 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:00:22] "GET /results/10 HTTP/1.1" 200 -
+2026-04-07 20:00:22,050 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:00:22] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-07 20:00:22,051 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:00:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 20:02:01,845 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:02:01] "GET / HTTP/1.1" 200 -
+2026-04-07 20:02:01,858 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:02:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 20:02:06,369 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:02:06] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-07 20:02:06,393 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:02:06] "GET /results/11 HTTP/1.1" 200 -
+2026-04-07 20:02:06,407 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:02:06] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-07 20:02:06,407 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:02:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 20:02:06,439 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:02:06] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:02:09,458 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:02:09] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:02:12,447 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:02:12] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:02:15,447 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:02:15] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:02:18,456 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:02:18] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:02:21,443 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:02:21] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:02:24,445 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:02:24] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:02:27,451 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:02:27] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:02:30,441 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:02:30] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:02:33,442 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:02:33] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:02:36,442 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:02:36] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:02:36,568 [WARNING] urllib3.connectionpool: Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPSConnection(host='testphp.vulnweb.com', port=443) at 0x1eca1c7d7f0>, 'Connection to testphp.vulnweb.com timed out. (connect timeout=15)')': /listproducts.php?cat=1
+2026-04-07 20:02:39,450 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:02:39] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:02:42,451 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:02:42] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:02:45,456 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:02:45] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:02:48,448 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:02:48] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:02:51,449 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:02:51] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:02:54,445 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:02:54] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:02:57,457 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:02:57] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:03:00,441 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:03:00] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:03:03,443 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:03:03] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:03:06,451 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:03:06] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:03:07,384 [WARNING] urllib3.connectionpool: Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPSConnection(host='testphp.vulnweb.com', port=443) at 0x1eca1c89f90>, 'Connection to testphp.vulnweb.com timed out. (connect timeout=15)')': /listproducts.php?cat=1
+2026-04-07 20:03:09,441 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:03:09] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:03:12,453 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:03:12] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:03:15,447 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:03:15] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:03:18,455 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:03:18] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:03:21,445 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:03:21] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:03:24,447 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:03:24] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:03:27,453 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:03:27] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:03:30,453 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:03:30] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:03:33,450 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:03:33] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:03:36,455 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:03:36] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:03:39,002 [WARNING] urllib3.connectionpool: Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPSConnection(host='testphp.vulnweb.com', port=443) at 0x1eca1c89a90>, 'Connection to testphp.vulnweb.com timed out. (connect timeout=15)')': /listproducts.php?cat=1
+2026-04-07 20:03:39,446 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:03:39] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:03:42,453 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:03:42] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:03:45,449 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:03:45] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:03:48,449 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:03:48] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:03:51,455 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:03:51] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:03:54,443 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:03:54] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:03:57,442 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:03:57] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:04:00,441 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:04:00] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:04:03,448 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:04:03] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:04:06,445 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:04:06] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:04:09,033 [INFO] scanner.scanner: No real findings detected; adding demo fallback rows.
+2026-04-07 20:04:09,448 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:04:09] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:04:09,725 [INFO] wast: Scan 11 completed for https://testphp.vulnweb.com/listproducts.php?cat=1
+2026-04-07 20:04:12,459 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:04:12] "GET /api/scan/11/status HTTP/1.1" 200 -
+2026-04-07 20:04:12,487 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:04:12] "GET /results/11 HTTP/1.1" 200 -
+2026-04-07 20:04:12,507 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:04:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 20:04:12,508 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:04:12] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-07 20:05:34,725 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:05:34] "GET / HTTP/1.1" 200 -
+2026-04-07 20:05:34,736 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:05:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 20:05:40,048 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:05:40] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-07 20:05:40,062 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:05:40] "GET /results/12 HTTP/1.1" 200 -
+2026-04-07 20:05:40,074 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:05:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 20:05:40,075 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:05:40] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-07 20:05:40,107 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:05:40] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:05:43,117 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:05:43] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:05:46,118 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:05:46] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:05:49,115 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:05:49] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:05:52,109 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:05:52] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:05:55,118 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:05:55] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:05:58,117 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:05:58] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:06:01,127 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:06:01] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:06:04,116 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:06:04] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:06:07,112 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:06:07] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:06:10,119 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:06:10] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:06:10,221 [WARNING] urllib3.connectionpool: Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPConnection(host='testphp.vulnweb.com', port=80) at 0x1eca1ca5040>, 'Connection to testphp.vulnweb.com timed out. (connect timeout=15)')': /artists.php?artist=1
+2026-04-07 20:06:13,118 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:06:13] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:06:16,117 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:06:16] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:06:19,116 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:06:19] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:06:22,109 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:06:22] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:06:25,125 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:06:25] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:06:28,113 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:06:28] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:06:31,118 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:06:31] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:06:34,121 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:06:34] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:06:37,114 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:06:37] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:06:40,112 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:06:40] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:06:41,042 [WARNING] urllib3.connectionpool: Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPConnection(host='testphp.vulnweb.com', port=80) at 0x1eca1ca5480>, 'Connection to testphp.vulnweb.com timed out. (connect timeout=15)')': /artists.php?artist=1
+2026-04-07 20:06:43,110 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:06:43] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:06:46,110 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:06:46] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:06:49,117 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:06:49] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:06:52,112 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:06:52] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:06:55,110 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:06:55] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:06:58,123 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:06:58] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:07:01,113 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:07:01] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:07:04,110 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:07:04] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:07:07,112 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:07:07] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:07:10,126 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:07:10] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:07:12,658 [WARNING] urllib3.connectionpool: Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<HTTPConnection(host='testphp.vulnweb.com', port=80) at 0x1eca1ca6140>, 'Connection to testphp.vulnweb.com timed out. (connect timeout=15)')': /artists.php?artist=1
+2026-04-07 20:07:13,118 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:07:13] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:07:16,110 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:07:16] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:07:19,121 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:07:19] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:07:22,113 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:07:22] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:07:25,116 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:07:25] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:07:28,120 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:07:28] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:07:31,123 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:07:31] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:07:34,123 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:07:34] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:07:37,114 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:07:37] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:07:40,112 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:07:40] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:07:42,681 [INFO] scanner.scanner: No real findings detected; adding demo fallback rows.
+2026-04-07 20:07:43,117 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:07:43] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:07:43,540 [INFO] wast: Scan 12 completed for http://testphp.vulnweb.com/artists.php?artist=1
+2026-04-07 20:07:46,120 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:07:46] "GET /api/scan/12/status HTTP/1.1" 200 -
+2026-04-07 20:07:46,148 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:07:46] "GET /results/12 HTTP/1.1" 200 -
+2026-04-07 20:07:46,164 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:07:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 20:07:46,167 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:07:46] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-07 20:12:50,405 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:12:50] "GET / HTTP/1.1" 200 -
+2026-04-07 20:12:50,419 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:12:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 20:12:52,729 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:12:52] "GET / HTTP/1.1" 200 -
+2026-04-07 20:12:52,744 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:12:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 20:12:57,274 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:12:57] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-07 20:12:57,295 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:12:57] "GET /results/13 HTTP/1.1" 200 -
+2026-04-07 20:12:57,309 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:12:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 20:12:57,310 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:12:57] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-07 20:12:57,355 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:12:57] "GET /api/scan/13/status HTTP/1.1" 200 -
+2026-04-07 20:12:58,182 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=username
+2026-04-07 20:12:58,525 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=username
+2026-04-07 20:12:58,684 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=password
+2026-04-07 20:12:58,830 [INFO] scanner.scanner: XSS finding (Medium) at http://127.0.0.1:5001/search field=q
+2026-04-07 20:12:59,177 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=username
+2026-04-07 20:12:59,338 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=password
+2026-04-07 20:13:00,313 [INFO] wast: Scan 13 completed for http://127.0.0.1:5001/
+2026-04-07 20:13:00,364 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:13:00] "GET /api/scan/13/status HTTP/1.1" 200 -
+2026-04-07 20:13:00,383 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:13:00] "GET /results/13 HTTP/1.1" 200 -
+2026-04-07 20:13:00,397 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:13:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 20:13:00,399 [INFO] werkzeug: 127.0.0.1 - - [07/Apr/2026 20:13:00] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-07 21:00:32,722 [INFO] wast: Database ready at C:\Users\anura\OneDrive\Desktop\Web-Testing\database.db
+2026-04-07 21:00:32,757 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-07 21:00:32,757 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-04-08 10:54:43,340 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:54:43] "GET / HTTP/1.1" 200 -
+2026-04-08 10:54:43,429 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:54:43] "GET /static/style.css HTTP/1.1" 200 -
+2026-04-08 10:55:06,682 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:55:06] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-08 10:55:06,741 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:55:06] "GET /results/14 HTTP/1.1" 200 -
+2026-04-08 10:55:06,752 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:55:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-08 10:55:06,782 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:55:06] "GET /static/charts.js HTTP/1.1" 200 -
+2026-04-08 10:55:06,809 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:55:06] "GET /api/scan/14/status HTTP/1.1" 200 -
+2026-04-08 10:55:08,891 [WARNING] urllib3.connectionpool: Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='127.0.0.1', port=5001): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /
+2026-04-08 10:55:09,820 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:55:09] "GET /api/scan/14/status HTTP/1.1" 200 -
+2026-04-08 10:55:11,731 [WARNING] urllib3.connectionpool: Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='127.0.0.1', port=5001): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /
+2026-04-08 10:55:12,828 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:55:12] "GET /api/scan/14/status HTTP/1.1" 200 -
+2026-04-08 10:55:15,380 [WARNING] urllib3.connectionpool: Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='127.0.0.1', port=5001): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /
+2026-04-08 10:55:15,821 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:55:15] "GET /api/scan/14/status HTTP/1.1" 200 -
+2026-04-08 10:55:17,426 [INFO] scanner.scanner: No real findings detected; adding demo fallback rows.
+2026-04-08 10:55:17,444 [INFO] wast: Scan 14 completed for http://127.0.0.1:5001
+2026-04-08 10:55:18,827 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:55:18] "GET /api/scan/14/status HTTP/1.1" 200 -
+2026-04-08 10:55:18,850 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:55:18] "GET /results/14 HTTP/1.1" 200 -
+2026-04-08 10:55:18,863 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:55:18] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-08 10:55:18,864 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:55:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-08 10:56:02,209 [INFO] wast: Database ready at C:\Users\anura\OneDrive\Desktop\Web-Testing\database.db
+2026-04-08 10:56:02,265 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-08 10:56:02,266 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-04-08 10:57:14,888 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:57:14] "GET / HTTP/1.1" 200 -
+2026-04-08 10:57:14,934 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:57:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-08 10:57:32,175 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:57:32] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-08 10:57:32,194 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:57:32] "GET /results/15 HTTP/1.1" 200 -
+2026-04-08 10:57:32,207 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:57:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-08 10:57:32,208 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:57:32] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-08 10:57:32,234 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:57:32] "GET /api/scan/15/status HTTP/1.1" 200 -
+2026-04-08 10:57:33,069 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=username
+2026-04-08 10:57:33,431 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=username
+2026-04-08 10:57:33,601 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=password
+2026-04-08 10:57:33,732 [INFO] scanner.scanner: XSS finding (Medium) at http://127.0.0.1:5001/search field=q
+2026-04-08 10:57:34,113 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=username
+2026-04-08 10:57:34,280 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=password
+2026-04-08 10:57:34,622 [INFO] wast: Scan 15 completed for http://127.0.0.1:5001
+2026-04-08 10:57:35,250 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:57:35] "GET /api/scan/15/status HTTP/1.1" 200 -
+2026-04-08 10:57:35,268 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:57:35] "GET /results/15 HTTP/1.1" 200 -
+2026-04-08 10:57:35,286 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:57:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-08 10:57:35,287 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:57:35] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-08 10:58:04,919 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:58:04] "GET /report/15 HTTP/1.1" 200 -
+2026-04-08 10:58:04,930 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 10:58:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-08 11:14:52,596 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 11:14:52] "GET / HTTP/1.1" 200 -
+2026-04-08 11:14:52,609 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 11:14:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-08 11:14:56,079 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 11:14:56] "GET / HTTP/1.1" 200 -
+2026-04-08 11:14:56,095 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 11:14:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-08 11:15:06,661 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 11:15:06] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-08 11:15:06,670 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 11:15:06] "GET /results/16 HTTP/1.1" 200 -
+2026-04-08 11:15:06,684 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 11:15:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-08 11:15:06,685 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 11:15:06] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-08 11:15:06,726 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 11:15:06] "GET /api/scan/16/status HTTP/1.1" 200 -
+2026-04-08 11:15:07,514 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=username
+2026-04-08 11:15:07,835 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=username
+2026-04-08 11:15:08,012 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=password
+2026-04-08 11:15:08,175 [INFO] scanner.scanner: XSS finding (Medium) at http://127.0.0.1:5001/search field=q
+2026-04-08 11:15:08,534 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=username
+2026-04-08 11:15:08,711 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=password
+2026-04-08 11:15:09,074 [INFO] wast: Scan 16 completed for http://127.0.0.1:5001
+2026-04-08 11:15:09,731 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 11:15:09] "GET /api/scan/16/status HTTP/1.1" 200 -
+2026-04-08 11:15:09,747 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 11:15:09] "GET /results/16 HTTP/1.1" 200 -
+2026-04-08 11:15:09,760 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 11:15:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-08 11:15:09,760 [INFO] werkzeug: 127.0.0.1 - - [08/Apr/2026 11:15:09] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-09 13:07:31,678 [INFO] wast: Database ready at C:\Users\anura\OneDrive\Desktop\Web-Testing\database.db
+2026-04-09 13:07:31,701 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-09 13:07:31,701 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-04-09 13:07:38,782 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 13:07:38] "GET / HTTP/1.1" 200 -
+2026-04-09 13:07:38,912 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 13:07:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-09 13:08:12,103 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 13:08:12] "GET / HTTP/1.1" 200 -
+2026-04-09 13:08:12,120 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 13:08:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-09 19:22:53,398 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:22:53] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-09 19:22:53,499 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:22:53] "GET /results/17 HTTP/1.1" 200 -
+2026-04-09 19:22:53,519 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:22:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-09 19:22:53,562 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:22:53] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-09 19:22:53,566 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:22:53] "GET / HTTP/1.1" 200 -
+2026-04-09 19:22:53,624 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:22:53] "GET /api/scan/17/status HTTP/1.1" 200 -
+2026-04-09 19:22:53,749 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:22:53] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-09 19:22:53,780 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:22:53] "GET / HTTP/1.1" 200 -
+2026-04-09 19:22:53,942 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:22:53] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-09 19:22:53,955 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:22:53] "GET / HTTP/1.1" 200 -
+2026-04-09 19:22:53,959 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5000/scan field=url
+2026-04-09 19:22:54,117 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:22:54] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-09 19:22:54,128 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:22:54] "GET / HTTP/1.1" 200 -
+2026-04-09 19:22:54,131 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5000/scan field=url
+2026-04-09 19:22:54,290 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:22:54] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-09 19:22:54,314 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:22:54] "GET / HTTP/1.1" 200 -
+2026-04-09 19:22:54,319 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5000/scan field=url
+2026-04-09 19:22:54,497 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:22:54] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-09 19:22:54,508 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:22:54] "GET / HTTP/1.1" 200 -
+2026-04-09 19:22:54,512 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5000/scan field=url
+2026-04-09 19:22:54,681 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:22:54] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-09 19:22:54,691 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:22:54] "GET / HTTP/1.1" 200 -
+2026-04-09 19:22:54,714 [INFO] wast: Scan 17 completed for http://127.0.0.1:5000/
+2026-04-09 19:22:56,635 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:22:56] "GET /api/scan/17/status HTTP/1.1" 200 -
+2026-04-09 19:22:56,659 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:22:56] "GET /results/17 HTTP/1.1" 200 -
+2026-04-09 19:22:56,673 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:22:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-09 19:22:56,678 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:22:56] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-09 19:23:24,842 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:23:24] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-09 19:23:24,852 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:23:24] "GET / HTTP/1.1" 200 -
+2026-04-09 19:23:24,878 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:23:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-09 19:24:04,455 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:24:04] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-09 19:24:04,465 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:24:04] "GET / HTTP/1.1" 200 -
+2026-04-09 19:24:04,490 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:24:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-09 19:24:19,118 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:24:19] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-09 19:24:19,126 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:24:19] "GET / HTTP/1.1" 200 -
+2026-04-09 19:24:19,149 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:24:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-09 19:24:28,940 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:24:28] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-09 19:24:28,964 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:24:28] "GET /results/18 HTTP/1.1" 200 -
+2026-04-09 19:24:28,977 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:24:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-09 19:24:28,978 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:24:28] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-09 19:24:29,011 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:24:29] "GET /api/scan/18/status HTTP/1.1" 200 -
+2026-04-09 19:24:29,111 [WARNING] urllib3.connectionpool: Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=None)) after connection broken by 'NameResolutionError('HTTPSConnection(host="\'%20or%20\'1\'=\'1", port=443): Failed to resolve \'\'%20or%20\'1\'=\'1\' ([Errno 11001] getaddrinfo failed)')': /
+2026-04-09 19:24:29,915 [WARNING] urllib3.connectionpool: Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=None)) after connection broken by 'NameResolutionError('HTTPSConnection(host="\'%20or%20\'1\'=\'1", port=443): Failed to resolve \'\'%20or%20\'1\'=\'1\' ([Errno 11001] getaddrinfo failed)')': /
+2026-04-09 19:24:31,518 [WARNING] urllib3.connectionpool: Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=None)) after connection broken by 'NameResolutionError('HTTPSConnection(host="\'%20or%20\'1\'=\'1", port=443): Failed to resolve \'\'%20or%20\'1\'=\'1\' ([Errno 11001] getaddrinfo failed)')': /
+2026-04-09 19:24:31,522 [INFO] scanner.scanner: No real findings detected; adding demo fallback rows.
+2026-04-09 19:24:31,533 [INFO] wast: Scan 18 completed for https://' OR '1'='1
+2026-04-09 19:24:32,011 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:24:32] "GET /api/scan/18/status HTTP/1.1" 200 -
+2026-04-09 19:24:32,029 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:24:32] "GET /results/18 HTTP/1.1" 200 -
+2026-04-09 19:24:32,048 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:24:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-09 19:24:32,049 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:24:32] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-09 19:24:53,756 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:24:53] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-09 19:24:53,764 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:24:53] "GET / HTTP/1.1" 200 -
+2026-04-09 19:24:53,786 [INFO] werkzeug: 127.0.0.1 - - [09/Apr/2026 19:24:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-10 21:50:21,031 [INFO] werkzeug: 127.0.0.1 - - [10/Apr/2026 21:50:21] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-10 21:50:21,046 [INFO] werkzeug: 127.0.0.1 - - [10/Apr/2026 21:50:21] "GET /results/19 HTTP/1.1" 200 -
+2026-04-10 21:50:21,077 [INFO] werkzeug: 127.0.0.1 - - [10/Apr/2026 21:50:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-10 21:50:21,083 [INFO] werkzeug: 127.0.0.1 - - [10/Apr/2026 21:50:21] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-10 21:50:21,134 [INFO] werkzeug: 127.0.0.1 - - [10/Apr/2026 21:50:21] "GET /api/scan/19/status HTTP/1.1" 200 -
+2026-04-10 21:50:21,198 [INFO] werkzeug: 127.0.0.1 - - [10/Apr/2026 21:50:21] "GET / HTTP/1.1" 200 -
+2026-04-10 21:50:21,364 [INFO] werkzeug: 127.0.0.1 - - [10/Apr/2026 21:50:21] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-10 21:50:21,372 [INFO] werkzeug: 127.0.0.1 - - [10/Apr/2026 21:50:21] "GET / HTTP/1.1" 200 -
+2026-04-10 21:50:21,551 [INFO] werkzeug: 127.0.0.1 - - [10/Apr/2026 21:50:21] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-10 21:50:21,558 [INFO] werkzeug: 127.0.0.1 - - [10/Apr/2026 21:50:21] "GET / HTTP/1.1" 200 -
+2026-04-10 21:50:21,572 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5000/scan field=url
+2026-04-10 21:50:21,726 [INFO] werkzeug: 127.0.0.1 - - [10/Apr/2026 21:50:21] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-10 21:50:21,730 [INFO] werkzeug: 127.0.0.1 - - [10/Apr/2026 21:50:21] "GET / HTTP/1.1" 200 -
+2026-04-10 21:50:21,732 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5000/scan field=url
+2026-04-10 21:50:21,901 [INFO] werkzeug: 127.0.0.1 - - [10/Apr/2026 21:50:21] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-10 21:50:21,907 [INFO] werkzeug: 127.0.0.1 - - [10/Apr/2026 21:50:21] "GET / HTTP/1.1" 200 -
+2026-04-10 21:50:21,908 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5000/scan field=url
+2026-04-10 21:50:22,064 [INFO] werkzeug: 127.0.0.1 - - [10/Apr/2026 21:50:22] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-10 21:50:22,072 [INFO] werkzeug: 127.0.0.1 - - [10/Apr/2026 21:50:22] "GET / HTTP/1.1" 200 -
+2026-04-10 21:50:22,073 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5000/scan field=url
+2026-04-10 21:50:22,236 [INFO] werkzeug: 127.0.0.1 - - [10/Apr/2026 21:50:22] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-10 21:50:22,243 [INFO] werkzeug: 127.0.0.1 - - [10/Apr/2026 21:50:22] "GET / HTTP/1.1" 200 -
+2026-04-10 21:50:23,252 [INFO] wast: Scan 19 completed for http://127.0.0.1:5000/
+2026-04-10 21:50:24,542 [INFO] werkzeug: 127.0.0.1 - - [10/Apr/2026 21:50:24] "GET /api/scan/19/status HTTP/1.1" 200 -
+2026-04-10 21:50:24,577 [INFO] werkzeug: 127.0.0.1 - - [10/Apr/2026 21:50:24] "GET /results/19 HTTP/1.1" 200 -
+2026-04-10 21:50:24,593 [INFO] werkzeug: 127.0.0.1 - - [10/Apr/2026 21:50:24] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-10 21:50:24,593 [INFO] werkzeug: 127.0.0.1 - - [10/Apr/2026 21:50:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-11 10:28:35,237 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:28:35] "GET / HTTP/1.1" 200 -
+2026-04-11 10:28:35,257 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:28:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-11 10:29:57,813 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:29:57] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-11 10:29:57,830 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:29:57] "GET /results/20 HTTP/1.1" 200 -
+2026-04-11 10:29:57,844 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:29:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-11 10:29:57,845 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:29:57] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-11 10:29:57,905 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:29:57] "GET /api/scan/20/status HTTP/1.1" 200 -
+2026-04-11 10:29:58,694 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=username
+2026-04-11 10:29:59,016 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=username
+2026-04-11 10:29:59,189 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=password
+2026-04-11 10:29:59,315 [INFO] scanner.scanner: XSS finding (Medium) at http://127.0.0.1:5001/search field=q
+2026-04-11 10:29:59,689 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=username
+2026-04-11 10:29:59,863 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=password
+2026-04-11 10:30:00,914 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:30:00] "GET /api/scan/20/status HTTP/1.1" 200 -
+2026-04-11 10:30:03,910 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:30:03] "GET /api/scan/20/status HTTP/1.1" 200 -
+2026-04-11 10:30:07,809 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:30:07] "GET /api/scan/20/status HTTP/1.1" 200 -
+2026-04-11 10:30:10,811 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:30:10] "GET /api/scan/20/status HTTP/1.1" 200 -
+2026-04-11 10:30:13,809 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:30:13] "GET /api/scan/20/status HTTP/1.1" 200 -
+2026-04-11 10:30:16,806 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:30:16] "GET /api/scan/20/status HTTP/1.1" 200 -
+2026-04-11 10:30:19,800 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:30:19] "GET /api/scan/20/status HTTP/1.1" 200 -
+2026-04-11 10:30:21,507 [INFO] wast: Scan 20 completed for http://127.0.0.1:5001/
+2026-04-11 10:30:22,803 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:30:22] "GET /api/scan/20/status HTTP/1.1" 200 -
+2026-04-11 10:30:22,835 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:30:22] "GET /results/20 HTTP/1.1" 200 -
+2026-04-11 10:30:22,864 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:30:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-11 10:30:22,865 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:30:22] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-11 10:30:51,954 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:30:51] "GET /results/20 HTTP/1.1" 200 -
+2026-04-11 10:30:51,972 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:30:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-11 10:30:51,974 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:30:51] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-11 10:31:05,649 [INFO] wast: Database ready at C:\Users\anura\OneDrive\Desktop\Web-Testing\database.db
+2026-04-11 10:31:05,727 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-11 10:31:05,728 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-04-11 10:31:13,590 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:31:13] "GET / HTTP/1.1" 200 -
+2026-04-11 10:31:13,699 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:31:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-11 10:32:46,048 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:32:46] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-11 10:32:46,101 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:32:46] "GET /results/21 HTTP/1.1" 200 -
+2026-04-11 10:32:46,117 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:32:46] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-11 10:32:46,120 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:32:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-11 10:32:46,147 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:32:46] "GET /api/scan/21/status HTTP/1.1" 200 -
+2026-04-11 10:32:46,919 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=username
+2026-04-11 10:32:47,257 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=username
+2026-04-11 10:32:47,436 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=password
+2026-04-11 10:32:47,615 [INFO] scanner.scanner: XSS finding (Medium) at http://127.0.0.1:5001/search field=q
+2026-04-11 10:32:47,931 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=username
+2026-04-11 10:32:48,102 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=password
+2026-04-11 10:32:49,155 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:32:49] "GET /api/scan/21/status HTTP/1.1" 200 -
+2026-04-11 10:32:52,154 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:32:52] "GET /api/scan/21/status HTTP/1.1" 200 -
+2026-04-11 10:32:55,167 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:32:55] "GET /api/scan/21/status HTTP/1.1" 200 -
+2026-04-11 10:32:58,157 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:32:58] "GET /api/scan/21/status HTTP/1.1" 200 -
+2026-04-11 10:33:01,153 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:33:01] "GET /api/scan/21/status HTTP/1.1" 200 -
+2026-04-11 10:33:04,163 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:33:04] "GET /api/scan/21/status HTTP/1.1" 200 -
+2026-04-11 10:33:07,155 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:33:07] "GET /api/scan/21/status HTTP/1.1" 200 -
+2026-04-11 10:33:09,537 [INFO] wast: Scan 21 completed for http://127.0.0.1:5001/
+2026-04-11 10:33:10,161 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:33:10] "GET /api/scan/21/status HTTP/1.1" 200 -
+2026-04-11 10:33:10,186 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:33:10] "GET /results/21 HTTP/1.1" 200 -
+2026-04-11 10:33:10,202 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:33:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-11 10:33:10,204 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 10:33:10] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-11 11:17:45,762 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 11:17:45] "GET / HTTP/1.1" 200 -
+2026-04-11 11:17:45,776 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 11:17:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-11 11:18:43,127 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 11:18:43] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-04-11 11:18:43,140 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 11:18:43] "GET /results/22 HTTP/1.1" 200 -
+2026-04-11 11:18:43,158 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 11:18:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-11 11:18:43,159 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 11:18:43] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-11 11:18:43,208 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 11:18:43] "GET /api/scan/22/status HTTP/1.1" 200 -
+2026-04-11 11:18:45,980 [WARNING] urllib3.connectionpool: Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='http', port=443): Failed to resolve 'http' ([Errno 11001] getaddrinfo failed)")': /127.0.0.1:5001
+2026-04-11 11:18:46,215 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 11:18:46] "GET /api/scan/22/status HTTP/1.1" 200 -
+2026-04-11 11:18:49,223 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 11:18:49] "GET /api/scan/22/status HTTP/1.1" 200 -
+2026-04-11 11:18:49,474 [WARNING] urllib3.connectionpool: Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='http', port=443): Failed to resolve 'http' ([Errno 11001] getaddrinfo failed)")': /127.0.0.1:5001
+2026-04-11 11:18:52,229 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 11:18:52] "GET /api/scan/22/status HTTP/1.1" 200 -
+2026-04-11 11:18:53,788 [WARNING] urllib3.connectionpool: Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='http', port=443): Failed to resolve 'http' ([Errno 11001] getaddrinfo failed)")': /127.0.0.1:5001
+2026-04-11 11:18:55,220 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 11:18:55] "GET /api/scan/22/status HTTP/1.1" 200 -
+2026-04-11 11:18:56,495 [INFO] scanner.scanner: No real findings detected; adding demo fallback rows.
+2026-04-11 11:18:58,229 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 11:18:58] "GET /api/scan/22/status HTTP/1.1" 200 -
+2026-04-11 11:18:59,192 [INFO] wast: Scan 22 completed for https://http//127.0.0.1:5001
+2026-04-11 11:19:01,222 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 11:19:01] "GET /api/scan/22/status HTTP/1.1" 200 -
+2026-04-11 11:19:01,247 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 11:19:01] "GET /results/22 HTTP/1.1" 200 -
+2026-04-11 11:19:01,270 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 11:19:01] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-04-11 11:19:01,271 [INFO] werkzeug: 127.0.0.1 - - [11/Apr/2026 11:19:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-14 15:34:14,952 [INFO] wast: Database ready at C:\Users\anura\OneDrive\Desktop\Web-Testing\database.db
+2026-05-14 15:34:15,018 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-14 15:34:15,019 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2026-05-14 15:34:52,290 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:34:52] "GET /results/13 HTTP/1.1" 200 -
+2026-05-14 15:34:52,443 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:34:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-14 15:34:52,457 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:34:52] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-05-14 15:34:52,546 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:34:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-14 15:35:01,588 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:35:01] "GET / HTTP/1.1" 200 -
+2026-05-14 15:35:01,604 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:35:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-14 15:35:05,050 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:35:05] "GET / HTTP/1.1" 200 -
+2026-05-14 15:35:05,063 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:35:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-14 15:35:21,393 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:35:21] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-05-14 15:35:21,402 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:35:21] "GET /results/23 HTTP/1.1" 200 -
+2026-05-14 15:35:21,415 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:35:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-14 15:35:21,416 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:35:21] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-05-14 15:35:21,462 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:35:21] "GET /api/scan/23/status HTTP/1.1" 200 -
+2026-05-14 15:35:23,590 [WARNING] urllib3.connectionpool: Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='127.0.0.1', port=5001): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /
+2026-05-14 15:35:24,460 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:35:24] "GET /api/scan/23/status HTTP/1.1" 200 -
+2026-05-14 15:35:26,420 [WARNING] urllib3.connectionpool: Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='127.0.0.1', port=5001): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /
+2026-05-14 15:35:28,294 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:35:28] "GET /api/scan/23/status HTTP/1.1" 200 -
+2026-05-14 15:35:30,057 [WARNING] urllib3.connectionpool: Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='127.0.0.1', port=5001): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /
+2026-05-14 15:35:31,292 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:35:31] "GET /api/scan/23/status HTTP/1.1" 200 -
+2026-05-14 15:35:32,112 [INFO] scanner.scanner: No real findings detected; adding demo fallback rows.
+2026-05-14 15:35:32,707 [INFO] wast: Scan 23 completed for http://127.0.0.1:5001
+2026-05-14 15:35:34,296 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:35:34] "GET /api/scan/23/status HTTP/1.1" 200 -
+2026-05-14 15:35:34,309 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:35:34] "GET /results/23 HTTP/1.1" 200 -
+2026-05-14 15:35:34,321 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:35:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-14 15:35:34,324 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:35:34] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-05-14 15:36:13,044 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:36:13] "GET / HTTP/1.1" 200 -
+2026-05-14 15:36:13,057 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:36:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-14 15:36:18,279 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:36:18] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-05-14 15:36:18,288 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:36:18] "GET / HTTP/1.1" 200 -
+2026-05-14 15:36:18,300 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:36:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-14 15:36:55,174 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:36:55] "[32mPOST /scan HTTP/1.1[0m" 302 -
+2026-05-14 15:36:55,184 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:36:55] "GET /results/24 HTTP/1.1" 200 -
+2026-05-14 15:36:55,196 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:36:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-05-14 15:36:55,197 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:36:55] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-05-14 15:36:55,218 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:36:55] "GET /api/scan/24/status HTTP/1.1" 200 -
+2026-05-14 15:36:56,112 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=username
+2026-05-14 15:36:56,471 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=username
+2026-05-14 15:36:56,644 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=password
+2026-05-14 15:36:56,773 [INFO] scanner.scanner: XSS finding (Medium) at http://127.0.0.1:5001/search field=q
+2026-05-14 15:36:57,174 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=username
+2026-05-14 15:36:57,355 [INFO] scanner.scanner: SQLi finding (High) at http://127.0.0.1:5001/login field=password
+2026-05-14 15:36:58,224 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:36:58] "GET /api/scan/24/status HTTP/1.1" 200 -
+2026-05-14 15:36:58,348 [INFO] wast: Scan 24 completed for http://127.0.0.1:5001
+2026-05-14 15:37:01,226 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:37:01] "GET /api/scan/24/status HTTP/1.1" 200 -
+2026-05-14 15:37:01,244 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:37:01] "GET /results/24 HTTP/1.1" 200 -
+2026-05-14 15:37:01,255 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:37:01] "[36mGET /static/charts.js HTTP/1.1[0m" 304 -
+2026-05-14 15:37:01,255 [INFO] werkzeug: 127.0.0.1 - - [14/May/2026 15:37:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
